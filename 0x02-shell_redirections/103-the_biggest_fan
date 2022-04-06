@@ -1,0 +1,2 @@
+#!/bin/bash
+tr '\t-\t' '=' | cut -d= -f1 | sort | uniq -c | sort -nr | rev | cut -d ' ' -f1 | rev | head -11
