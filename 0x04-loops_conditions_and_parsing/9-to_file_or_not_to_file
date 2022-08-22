@@ -6,9 +6,9 @@ then
     echo "school file exists"
     if [ -s $s ] # check if empty | size 0
     then
-        echo "school file is empty"
-    else
         echo "school file is not empty"
+    else
+        echo "school file is empty"
     fi
     if [ -f $s ] # check if it's a regular file
     then
