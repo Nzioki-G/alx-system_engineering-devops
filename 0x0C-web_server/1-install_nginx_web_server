@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# run to install nginx then put a message
+
+# update
+sudo apt-get -y update
+
+# install
+sudo apt-get -y install nginx
+
+# allow traffic/listen on port 80
+sudo ufw allow 'Nginx HTTP'
+
+# reboot system without using systemctl
+# sudo systemctl restart nginx
+sudo service nginx restart
+
+# replace nginex message with 'Hello World!'
+sudo echo "Hello, World!" >| /var/www/html/index.nginx-debian.html
