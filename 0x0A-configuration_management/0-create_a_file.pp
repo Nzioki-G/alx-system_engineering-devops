@@ -1,3 +1,5 @@
+# create a file in /tmp with specific owner, group, permissions and content
+
 file { 'school':
     ensure  => 'present',
     path    => '/tmp/school',
