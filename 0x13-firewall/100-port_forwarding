@@ -7,10 +7,11 @@
 #   ufw-before-output
 #   ufw-before-forward
 #
+
 # listen on port 8080 but route to port 80
 *nat
-:POSTROUTING ACCEPT [0:0]
---append PREROUTING --protocol tcp --source any port 8080 --jump REDIRECT --destination port 80
+:PREROUTING ACCEPT [0:0]
+--append PREROUTING --protocol tcp --source port 8080 --jump REDIRECT --to-port 80
 COMMIT
 
 # Don't delete these required lines, otherwise there will be errors
