@@ -7,14 +7,11 @@
 #   ufw-before-output
 #   ufw-before-forward
 #
-
 # listen on port 8080 but route to port 80
-# -A ufw route allow in on port 8080 out on on port 80; my thinking ;)
 *nat
 :POSTROUTING ACCEPT [0:0]
--A POSTROUTING -s 0.0.0.0/8080 -o wg0 -j 0.0.0.0/80
+--append PREROUTING --protocol tcp --source any port 8080 --jump REDIRECT --destination port 80
 COMMIT
-
 
 # Don't delete these required lines, otherwise there will be errors
 *filter
