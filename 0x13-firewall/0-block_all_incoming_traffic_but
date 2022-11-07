@@ -3,8 +3,6 @@ sudo ufw default deny incoming
 
 # allow ssh
 sudo ufw allow OpenSSH
-
-# allow ssh
 sudo ufw allow ssh
 
 # allow SSH
@@ -15,6 +13,7 @@ sudo ufw allow 443
 
 #allow HTTP
 sudo ufw allow 80/tcp
+sudo ufw allow in on eth0 to any port 80 
 
 # restart the firewall to save changes
 sudo ufw enable
