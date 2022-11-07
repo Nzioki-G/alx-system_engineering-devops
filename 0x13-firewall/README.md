@@ -2,6 +2,6 @@
 Be extra careful with port 22
 <br><br>
 man pages:
-> ufw<br><br>
-> iptables<br><br>
+> ufw: <b>u<b>ncomplicated firewall<br>
+> iptables<br>
 > nat
