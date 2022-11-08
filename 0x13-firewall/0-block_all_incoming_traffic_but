@@ -1,12 +1,12 @@
 # all incoming traffic is blocked by default
 # allow ssh
-sudo ufw allow 22
+sudo ufw allow 22/tcp
 
 # allow HTTPS SSL
-sudo ufw allow 443
+sudo ufw allow 443/tcp
 
 #allow HTTP
-sudo ufw allow 80
+sudo ufw allow 80/tcp
 
 # activate the firewall
 sudo ufw enable
