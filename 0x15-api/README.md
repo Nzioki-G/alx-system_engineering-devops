@@ -1,11 +1,11 @@
 # API
-<b>A<b>pplication <b>P<b>rogram <b>I<b>nterface: mechanism for application components to communicate
+**A**pplication **P**rogram **I**nterface: mechanism for application components to communicate
 <br><br>
-## REST API
-<b>RE<b>presentational <b>S<b>tate <b>T<b>ransfer: an API that uses HTTP for communication
+### REST API
+**RE**presentational **S**tate **T**ransfer: an API that uses HTTP for communication
 <br><br>
-## Microservices
-As I understand: <b>microservices<b> are modularisation on the client's side or runtime<br>
+### Microservices
+As I understand: **microservices** are modularisation on the client's side or runtime<br>
 An application is modular. These modules have endpoints that listen and respond to each other<br>
 Example
 > objects of a program are microservices i.e. they each handle a specific problem<br>
