@@ -1,5 +1,5 @@
 # API
-<b>A<>pplication <b>P<b>rogram <b>I<b>nterface: mechanism for application components to communicate
+<b>A<b>pplication <b>P<b>rogram <b>I<b>nterface: mechanism for application components to communicate
 <br><br>
 ## REST API
 <b>RE<b>presentational <b>S<b>tate <b>T<b>ransfer: an API that uses HTTP for communication
