@@ -8,5 +8,12 @@
 As I understand: **microservices** are modularisation on the client's side or runtime<br>
 An application is modular. These modules have endpoints that listen and respond to each other<br>
 Example
-> objects of a program are microservices i.e. they each handle a specific problem<br>
-communication between objects is made possible by APIs i.e. the objects' public methods and properties
+- objects of a program are microservices i.e. they each handle a specific problem<br>
+- communication between objects is made possible by APIs i.e. the objects' public methods and properties
+<a/>
+<br><br>
+**REST API requests are made up of**
+1. <span style="color: blue"> **endpoint** </span> - the url
+2. <span style="color: blue"> **method** </span> - CRUD will be POST, GET, PUT, DELETE
+3. <span style="color: blue"> **data** </span> - if method is POST/PUT
+4. <span style="color: blue"> **headers** </span> - metadata e.g. content type

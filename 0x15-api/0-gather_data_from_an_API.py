@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""given an employees id, return info about their task progress"""
+""" given an employees id, return info about their task progress """
 
 import requests
 import sys
