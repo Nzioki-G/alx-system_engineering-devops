@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-"""
+'''
 Given an employees id, return info about their tasks progress
 Use REST API
-"""
+'''
 
 import requests
 import sys
