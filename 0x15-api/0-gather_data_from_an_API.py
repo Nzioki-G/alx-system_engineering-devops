@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 '''
-Given an employees id, return info about their tasks progress
-Use REST API
+ Python script that returns info about an employees tasks progress
+ using REST API, given the employee's ID
 '''
 
 import requests
