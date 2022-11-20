@@ -10,7 +10,7 @@ An application is modular. These modules have endpoints that listen and respond 
 Example
 - objects of a program are microservices i.e. they each handle a specific problem<br>
 - communication between objects is made possible by APIs i.e. the objects' public methods and properties
-<a/>
+
 <br><br>
 __REST API requests are made up of__
 1. **endpoint** - the url
