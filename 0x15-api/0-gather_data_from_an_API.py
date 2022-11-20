@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""Python script that returns info about an employees tasks progress
-using REST API, given the employee's ID
-"""
+"""fetch info about an employees tasks' progress using REST API"""
 
 import requests
 import sys
