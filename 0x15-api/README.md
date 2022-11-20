@@ -12,8 +12,8 @@ Example
 - communication between objects is made possible by APIs i.e. the objects' public methods and properties
 
 <br><br>
-__REST API requests are made up of__
-1. **endpoint** - the url
-2. **method** - CRUD will be POST, GET, PUT, DELETE
-3. **data** - if method is POST/PUT
-4. **headers** - metadata e.g. content type
+**REST API requests are made up of**
+1. <span style="color: blue"> **endpoint** </span> - the url
+2. <span style="color: blue"> **method** </span> - CRUD will be POST, GET, PUT, DELETE
+3. <span style="color: blue"> **data** </span> - if method is POST/PUT
+4. <span style="color: blue"> **headers** </span> - metadata e.g. content type
