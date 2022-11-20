@@ -1,8 +1,7 @@
 #!/usr/bin/python3
-'''
- Python script that returns info about an employees tasks progress
- using REST API, given the employee's ID
-'''
+"""Python script that returns info about an employees tasks progress
+using REST API, given the employee's ID
+"""
 
 import requests
 import sys
@@ -12,9 +11,7 @@ if __name__ == '__main__':
     users_url = f'https://jsonplaceholder.typicode.com/users/{user_id}'
     todos_url = f'{users_url}/todos'
 
-    # get the user details to fetch name
     r1 = requests.get(users_url)
-    # get user's todo LIST to fetch completed and not-completed tasks
     r2 = requests.get(todos_url)
 
     name = r1.json().get("name")
