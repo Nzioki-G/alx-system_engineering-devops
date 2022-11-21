@@ -1,10 +1,11 @@
 #!/usr/bin/python3
-"""fetch info about an employees tasks' progress using REST API"""
-
-import requests
-import sys
+"""fetch info about an employees tasks progress using REST API"""
 
 if __name__ == '__main__':
+
+    import requests
+    import sys
+
     user_id = sys.argv[1]
     users_url = f'https://jsonplaceholder.typicode.com/users/{user_id}'
     todos_url = f'{users_url}/todos'
