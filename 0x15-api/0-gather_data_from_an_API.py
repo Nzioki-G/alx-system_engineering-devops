@@ -8,7 +8,7 @@ if __name__ == "__main__":
     import requests
     import sys
 
-    if len(sys.argv) == 2 and sys.argv[i].isdigit():
+    if len(sys.argv) == 2 and sys.argv[1].isdigit():
         user_id = sys.argv[1]
 
         r1 = requests.get(f"https://jsonplaceholder.typicode.com/users/{user_id}")
