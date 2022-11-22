@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""
-fetch info about an employees tasks progress using REST API
-"""
+"""fetch info about an employees tasks progress using REST API"""
 
 if __name__ == '__main__':
 
