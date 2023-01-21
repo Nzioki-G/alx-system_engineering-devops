@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 # ping address passed as arguement 5 times
 if [ -z "$1" ]
 then
