@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -amp
+ls -a --format=commas --indicator-style=slash 
