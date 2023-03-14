@@ -1,2 +1,2 @@
 #!/bin/bash
-ls --time=birth | head -n 10
+ls --time=birth --indicator-style=slash | grep --invert-match /$ --max-count=10
