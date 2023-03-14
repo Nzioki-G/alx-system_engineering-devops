@@ -1,2 +1,2 @@
 #!/bin/bash
-ls --time=birth --indicator-style=slash | grep --invert-match /$ --max-count=10
+ls -t --indicator-style=slash | grep --invert-match /$ --max-count=10
