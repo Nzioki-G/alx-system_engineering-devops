@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-# generate key-pair with specific filename, bits, passphrase
-ssh-keygen -f school -b 4096 -P betty
