@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-# displays this script's PID
-
-echo $$
-#ps -ef | grep 0-what-is-my-pid | tr -s ' ' | cut -d ' ' -f2

@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-# displays PID & proc_name for procs' names containing the word 'bash'
-
-pgrep --list-name bash
