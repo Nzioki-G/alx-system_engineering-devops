@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-# displays all files in current dir without their number-prefix
-
-list="$(ls)"
-
-for file in $list;
-do
-  echo "$file" | cut -d '-' -f2;
-done
