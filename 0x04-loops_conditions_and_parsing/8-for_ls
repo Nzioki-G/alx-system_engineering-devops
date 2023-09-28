@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Displays contents of current dir as list sans prefix
+
+list="$(ls)";
+for file in $list;
+do
+	echo "$file" | cut --delimiter='-' --field=2;
+done;
