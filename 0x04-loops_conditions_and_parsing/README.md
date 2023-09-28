@@ -1,6 +1,6 @@
 # Loops, conditions and parsing
 
-## Topics covered:<br>
+## Topics covered:
 <mark>DevOps</mark> <br> <mark>Shell</mark> <br> <mark>Bash</mark> <br> <mark>Scripting</mark>
 <br>
 <br>
