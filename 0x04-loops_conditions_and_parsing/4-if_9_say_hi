@@ -5,11 +5,10 @@
 while ((i < 10));
 do
 	((i++));
+	echo 'Best School';
 	if ((i == 9));
 	then
 		echo "Hi";
-		continue;
 	fi;
 
-	echo 'Best School';
 done;

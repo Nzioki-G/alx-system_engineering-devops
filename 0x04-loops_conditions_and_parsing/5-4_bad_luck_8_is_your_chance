@@ -11,7 +11,7 @@ do
 		continue;
 	elif ((i == 8));
 	then
-		echo "bad luck";
+		echo "good luck";
 		continue;
 	else
 		echo 'Best School';
