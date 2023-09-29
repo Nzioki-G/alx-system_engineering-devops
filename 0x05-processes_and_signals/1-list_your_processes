@@ -4,4 +4,4 @@
 # a: all with tty
 # x: lifts 'must have a tty' restriction
 # f: full format list
-ps axjf
+ps auxf
