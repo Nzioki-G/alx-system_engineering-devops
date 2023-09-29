@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# stops an indefinite loop
+
+# -f: pattern is matched against the full command
+pkill -SIGTERM --full 4-to_infinity_and_beyond
