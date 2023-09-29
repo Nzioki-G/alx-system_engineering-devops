@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 # display pid of processes whose name contain 'bash'
 
-ps | grep bash | cut --delimiter=' ' --fields=3,9
+pgrep --list-name bash
+# ps | grep bash | cut --delimiter=' ' --fields=3,9
