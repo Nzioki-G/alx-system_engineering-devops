@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Displays a list of currwntly running processes
+
+# a: all with tty
+# x: lifts 'must have a tty' restriction
+# f: full format list
+ps axjf
