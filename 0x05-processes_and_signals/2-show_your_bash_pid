@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# displays lines containing the bash word, allowing easy access of the Bash's pid
+# shellcheck disable=SC2009
+
+ps auxf | grep bash
