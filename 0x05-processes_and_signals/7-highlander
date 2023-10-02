@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# prints infinitely, sleeping at each iteration. prints on to sigterm
+
+print()
+{
+	echo 'I am invincible!!!';
+} 
+
+trap print SIGTERM
+
+while ((1));
+do
+	echo "To infinity and beyond";
+	sleep 2;
+done;
