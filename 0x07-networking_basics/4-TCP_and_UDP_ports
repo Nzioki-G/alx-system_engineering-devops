@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# displays all listening ports and the pid/name of owner
+
+netstat --listening --program
